@@ -342,3 +342,98 @@ button:hover {
   width: 100%;
   max-width: 580px;
 }
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 120px;
+}
+
+.cards__title {
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+.cards__content {
+  display: flex;
+  gap: 10px;
+}
+
+.card {
+  padding: 32px;
+  background-color: #F8F8F8;
+  border-radius: 8px;
+}
+
+.card__img {
+  width: 100%;
+  max-width: 223px;
+  margin: 0 auto;
+}
+
+.card__text {
+  color: #000000;
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+
+.card__author {
+  font-size: 14px;
+  line-height: 20px;
+  color: #767676;
+}
+
+.hero-footer {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+  padding-top: 284px;
+  padding-bottom: 288px;
+}
+
+.hero-footer__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.hero-footer__title {
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 60px;
+}
+
+.hero-footer__btn {
+  padding: 8px 20px;
+  border-radius: 8px;
+  background-color: #0033FF;
+}
+
+.footer {
+  padding-top: 48px;
+  padding-bottom: 60px;
+}
+
+.footer__list {
+  display: flex;
+  gap: 24px;
+}
+
+.footer__rights {
+  color: #A6A8AD
+}
+
+.footer__link-item {
+  color: #A6A8AD;
+}
