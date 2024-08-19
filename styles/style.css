@@ -88,6 +88,10 @@ button:hover {
   gap: 20px;
 }
 
+.header__mobile-burger {
+  display: none;
+}
+
 .header__nav-btn--signup {
   padding: 8px 20px;
   background-color: #FFFFFF;
@@ -436,4 +440,148 @@ button:hover {
 
 .footer__link-item {
   color: #A6A8AD;
+}
+
+@media (max-width: 768px) {
+  .header__nav-item {
+    display: none;
+  }
+
+  .header__nav-item:first-child {
+    display: block;
+  }
+
+  .header__nav-controls {
+    display: none;
+  }
+
+  .header__mobile-burger {
+    display: block;
+  }
+
+  .banner {
+    padding: 10px 16px;
+  }
+
+  .banner__btn {
+    white-space: nowrap;
+  }
+
+  .sounds {
+    flex-direction: column-reverse;
+  }
+
+  .sounds__text-content {
+    margin-top: 44px;
+    align-items: center;
+  }
+
+  .sounds__title {
+    text-align: center;
+  }
+
+  .sounds__subtitle {
+    text-align: center;
+  }
+
+  .connectedExperience {
+    flex-direction: column;
+  }
+
+  .connectedExperience__text-content {
+    margin-top: 44px;
+    align-items: center;
+  }
+
+  .connectedExperience__title {
+    text-align: center;
+  }
+
+  .connectedExperience__subtitle {
+    text-align: center;
+  }
+
+  .gear {
+    flex-direction: column-reverse;
+  }
+
+  .gear__text-content {
+    margin-top: 44px;
+    align-items: center;
+  }
+
+  .gear__title {
+    text-align: center;
+  }
+
+  .gear__subtitle {
+    text-align: center;
+  }
+
+  .technology {
+    flex-direction: column;
+  }
+
+  .technology__text-content {
+    margin-top: 44px;
+    align-items: center;
+  }
+
+  .technology__title {
+    text-align: center;
+  }
+
+  .technology__subtitle {
+    text-align: center;
+  }
+
+  .cards {
+    margin-bottom: 48px;
+  }
+
+  .cards__title {
+    text-align: center;
+  }
+
+  .cards__content {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .footer__list {
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero {
+    padding: 48px 0;
+  }
+
+  .hero__title {
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  .hero__subtitle {
+    max-width: 345px;
+  }
+
+  .hero__btn {
+    margin-bottom: 0;
+  }
+
+  .hero__more {
+    display: none;
+  }
+
+  .hero-footer {
+    padding: 108px 0;
+  }
+
+  .hero-footer__title {
+    font-size: 44px;
+    line-height: 40px;
+  }
 }
