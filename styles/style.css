@@ -69,6 +69,20 @@ button:hover {
   padding: 0 15px;
 }
 
+.btn--primary {
+  padding: 16px 32px;
+  background-color: #0033FF;
+  border-radius: 8px;
+  color: #FFFFFF;
+}
+
+.btn--secondary {
+  padding: 8px 20px;
+  background-color: #FFFFFF;
+  border-radius: 32px;
+  color: #000000;
+}
+
 .header__nav {
   display: flex;
   align-items: center;
@@ -90,13 +104,6 @@ button:hover {
 
 .header__mobile-burger {
   display: none;
-}
-
-.header__nav-btn--signup {
-  padding: 8px 20px;
-  background-color: #FFFFFF;
-  border-radius: 32px;
-  color: #000000;
 }
 
 .banner {
@@ -142,15 +149,8 @@ button:hover {
   line-height: 24px;
 }
 
-.hero__btn {
-  padding: 16px 32px;
-  background-color: #0033FF;
-  border-radius: 8px;
-  color: #FFFFFF;
-  margin-bottom: 150px;
-}
-
 .hero__more {
+  margin-top: 150px;
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -167,182 +167,43 @@ button:hover {
   transition: transform 0.3s ease;
 }
 
-.sounds {
+.features {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 96px;
 }
 
-.sounds__text-content {
+.features__text-content {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.sounds__label {
+.features__label {
   font-size: 12px;
   text-transform: uppercase;
   line-height: 14px;
   color: #A6A8AD;
 }
 
-.sounds__title {
+.features__title {
   font-size: 28px;
   line-height: 36px;
   font-weight: 400;
 }
 
-.sounds__subtitle {
+.features__subtitle {
   max-width: 422px;
   font-size: 16px;
   line-height: 24px;
 }
 
-.sounds__btn {
-  padding: 8px 20px;
-  background-color: #0033FF;
-  border-radius: 8px;
+.features__btn {
   width: fit-content;
 }
 
-.sounds__img {
-  width: 100%;
-  max-width: 580px;
-}
-
-.connectedExperience {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 96px;
-}
-
-.connectedExperience__text-content {
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-  gap: 16px;
-}
-
-.connectedExperience__label {
-  font-size: 12px;
-  text-transform: uppercase;
-  line-height: 14px;
-  color: #A6A8AD;
-}
-
-.connectedExperience__title {
-  font-size: 28px;
-  line-height: 36px;
-  font-weight: 400;
-}
-
-.connectedExperience__subtitle {
-  text-align: end;
-  max-width: 422px;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.connectedExperience__btn {
-  padding: 8px 20px;
-  background-color: #0033FF;
-  border-radius: 8px;
-  width: fit-content;
-}
-
-.connectedExperience__img {
-  width: 100%;
-  max-width: 580px;
-}
-
-.gear {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 96px;
-}
-
-.gear__text-content {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.gear__label {
-  font-size: 12px;
-  text-transform: uppercase;
-  line-height: 14px;
-  color: #A6A8AD;
-}
-
-.gear__title {
-  font-size: 28px;
-  line-height: 36px;
-  font-weight: 400;
-}
-
-.gear__subtitle {
-  max-width: 422px;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.gear__btn {
-  padding: 8px 20px;
-  background-color: #0033FF;
-  border-radius: 8px;
-  width: fit-content;
-}
-
-.gear__img {
-  width: 100%;
-  max-width: 580px;
-}
-
-.technology {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 96px;
-}
-
-.technology__text-content {
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-  gap: 16px;
-}
-
-.technology__label {
-  font-size: 12px;
-  text-transform: uppercase;
-  line-height: 14px;
-  color: #A6A8AD;
-}
-
-.technology__title {
-  font-size: 28px;
-  line-height: 36px;
-  font-weight: 400;
-}
-
-.technology__subtitle {
-  text-align: end;
-  max-width: 442px;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.technology__btn {
-  padding: 8px 20px;
-  background-color: #0033FF;
-  border-radius: 8px;
-  width: fit-content;
-}
-
-.technology__img {
+.features__img {
   width: 100%;
   max-width: 580px;
 }
@@ -467,71 +328,24 @@ button:hover {
     white-space: nowrap;
   }
 
-  .sounds {
-    flex-direction: column-reverse;
-  }
-
-  .sounds__text-content {
-    margin-top: 44px;
-    align-items: center;
-  }
-
-  .sounds__title {
-    text-align: center;
-  }
-
-  .sounds__subtitle {
-    text-align: center;
-  }
-
-  .connectedExperience {
+  .features {
     flex-direction: column;
   }
 
-  .connectedExperience__text-content {
-    margin-top: 44px;
-    align-items: center;
-  }
-
-  .connectedExperience__title {
-    text-align: center;
-  }
-
-  .connectedExperience__subtitle {
-    text-align: center;
-  }
-
-  .gear {
+  .features--reverse {
     flex-direction: column-reverse;
   }
 
-  .gear__text-content {
+  .features__text-content {
     margin-top: 44px;
     align-items: center;
   }
 
-  .gear__title {
+  .features__title {
     text-align: center;
   }
 
-  .gear__subtitle {
-    text-align: center;
-  }
-
-  .technology {
-    flex-direction: column;
-  }
-
-  .technology__text-content {
-    margin-top: 44px;
-    align-items: center;
-  }
-
-  .technology__title {
-    text-align: center;
-  }
-
-  .technology__subtitle {
+  .features__subtitle {
     text-align: center;
   }
 
